@@ -1,4 +1,4 @@
-# HomemadeFood
+# Nuxt Recipe App
 
 > Front-end CRUD App built with VueJS/Nuxt for managing your recipes
 
