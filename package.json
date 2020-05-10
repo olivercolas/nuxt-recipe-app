@@ -1,0 +1,31 @@
+{
+    "name": "nuxt-recipe-app",
+    "version": "1.0.0",
+    "description": "CRUD app for Home Made Recipes",
+    "author": "olivercolas.oc@gmail.com",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development nodemon server.js --watch server",
+        "build": "nuxt build",
+        "start": "cross-env NODE_ENV=production node server.js",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/pwa": "^3.0.0-beta.19",
+        "body-parser": "^1.19.0",
+        "cross-env": "^5.2.0",
+        "express": "^4.16.4",
+        "mongoose": "^5.7.5",
+        "mongoose-unique-validator": "^2.0.3",
+        "multer": "^1.4.2",
+        "nuxt": "^2.0.0",
+        "vue-class-component": "^7.1.0",
+        "vue-property-decorator": "^8.3.0"
+    },
+    "devDependencies": {
+        "@nuxt/typescript-build": "^0.3.2",
+        "@nuxtjs/vuetify": "^1.0.0",
+        "nodemon": "^1.18.9"
+    }
+}
